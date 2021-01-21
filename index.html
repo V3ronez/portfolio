@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="image/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="image/android-chrome-192x192.png">
     <link rel="manifest" href="/site.webmanifest">
     <title>Portfólio</title>
 </head>
@@ -20,7 +20,7 @@
             <div class="line" id="line3"></div>
             <span>close</span>
         </div>
-        <header>
+        <header id="home">
             <div class="img-wrapper">
                 <img src="image/background.jpg" alt="background">
             </div>
@@ -31,25 +31,150 @@
             </div>
         </header>
 
-        <div class="sidebar">
+        <aside class="sidebar">
             <nav>
                 <ul class="menu">
                     <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#conhecimentos" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#projetos" class="menu-link">Projetos</a></li>
                 </ul>
             </nav>
             <div class="social-media">
-                <a href=""><i class="fab fa-instagram"></i></a>
-                <a href=""><i class="fab fa-github"></i></a>
-                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/v3ronez"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/V3ronez"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com/V3ronez"><i class="fab fa-twitter"></i></a>
             </div>
-        </div>
+        </aside>
 
+        <section class="sessao-conhecimentos" id="conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Design</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="conhecimento">
+                    <div class="conhecimento-header">
+                        <i class="fab fa-github"></i>
+                        <h3>Git e Github</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p></p>
+                    </div>
+                </div>
+                <div class="conhecimento-img-wrapper">
+                    <img src="image/conhecimentos.png" alt="imagem conhecimento">
+                </div>
+            </div>
+        </section>
+
+        <section class="sessao-projetos" id="projetos">
+            <div class="sessao-header">
+                <h1>Projetos</h1>
+            </div>
+            <div class="projetos">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="image/project1.jfif" alt="image do projeto ToDo">
+                    </div>
+                    <div class="card-info">
+                        <h2>ToDo list</h2>
+                        <h3>Javascript</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi doloremque modi atque
+                            perferendis ipsum quisquam quis consequuntur iure sint ipsam sit neque, veritatis
+                            repudiandae officiis nisi error facilis culpa quia.</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="image/project2.jfif" alt="imagem do projeto VueJS">
+                    </div>
+                    <div class="card-info">
+                        <h2>Calculadora</h2>
+                        <h3>VueJS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat consectetur accusantium,
+                            tempora corporis sint aut repellendus ab dolor nesciunt ipsa excepturi? Perferendis ipsa hic
+                            eaque eos rem a sed cum.</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="./image/project4.jfif" alt="imagem do projeto...">
+                    </div>
+                    <div class="card-info">
+                        <h2>projeto...</h2>
+                        <h3>HTML</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ullam itaque nisi nihil
+                            saepe aperiam repellat incidunt, iste ab deleniti consequuntur, repudiandae enim maxime nam
+                            velit rem, iure ut optio?</p>
+                        <button>Saiba Mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <p>Copyrigth &copy; 2021 Henrique Veronez</p>
+                <div class="social-list">
+                    <ul>
+                        <li><a href="https://www.instagram.com/v3ronez"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://github.com/V3ronez"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://twitter.com/V3ronez"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <a href="#home" id="link-topo">
+            <i class="fas fa-arrow-up"></i> </a>
     </div>
 </body>
 <script src="main/script.js">
 
 </script>
+
 </html>
